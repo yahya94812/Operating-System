@@ -1,19 +1,8 @@
-# Linux Bash Scripting Basics
-
-**Created:** 4/30/2025 15:01  
-**Updated:** 4/30/2025 15:02  
-**Exported:** 4/30/2025 15:04  
-
 ## Prompt:
 generate code to illustrate basics of linux bash script.
 
 ## Response:
  I'd be happy to create a bash script that illustrates the fundamental concepts of Linux bash scripting. Let me create an artifact with a comprehensive example script that demonstrates the key features.
-```
-Viewing artifacts created via the Analysis Tool web feature preview isn’t yet supported on mobile.
-```
-
-
 
 This bash script demonstrates the fundamental concepts of bash scripting on Linux. Let me explain the key components:
 

@@ -1,4 +1,30 @@
 # Shell and other basics
+A **shell** (like `bash`) is just a **program** whose main jobs are to:
+* Read commands you type
+* Parse them (handle spaces, quotes, variables, pipes, redirection)
+* Start other programs
+* Connect input/output between programs
+Important point:
+> **The shell does NOT implement commands like `ls`, `mkdir`, `cp`, etc.**
+It only _runs_ them.
+
+Commands such as:
+* `ls`
+* `mkdir`
+are **separate executable programs**, stored on disk, usually in:
+```text
+/bin
+/usr/bin
+```
+Built-in commands vs external commands
+Some commands **are built into the shell**, because they must change shell state:
+Examples:
+```bash
+cd
+export
+alias
+history
+```
 * linux-shell is nothing but cli, terminal; it is program that help to interact with user and operating system (intermediatory between user and kernal) eg: bourne shell(sh), C shell(csh), bourne again shell(bash)
 * bash scripting eg:
     ```
@@ -42,7 +68,7 @@
 * sudo will logs the command not su
 
 ```
-    # This would prompt for root password and switch you to root usermode
+    # This would prompt for user(should be in sudo group) password and switch you to root usermode
     $ su -
 
     # To perform a command as superuser (if allowed in sudoers list)

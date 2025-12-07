@@ -37,6 +37,17 @@ chmod a+r file.txt  # Add read for all (user, group, others)
   * staff is the group.
   
 ## Archiving
+### using zip and unzip
+* sudo apt install zip unzip
+* zip archive.zip file.txt
+* zip archive.zip file1.txt file2.txt file3.txt
+* zip -r archive.zip folder_name/
+* zip -r backup.zip folder1 folder2
+* unzip archive.zip
+* unzip -l archive.zip  # list contents without extracting
+* zip -e secure.zip file.txt
+
+### using tar
 * c – Create a new archive.
 * v – Verbose mode; shows the files being added to the archive.
 * f – File; specifies the name of the archive file (archive_name.tar).

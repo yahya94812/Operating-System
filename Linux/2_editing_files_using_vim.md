@@ -34,3 +34,7 @@
 * y :for copy whole text
 * d :for delete whole text
 * p :for pasting
+---
+## SAVING AND EXITING
+* use :wq to save and exit
+* use :q! to exit without saving
